@@ -164,7 +164,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
 
     override fun onPause() {
         super.onPause()
-        Timber.i("onResume called")
+        Timber.i("onPause called")
     }
 
     override fun onDestroy() {
